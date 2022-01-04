@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     val mRoomList = ArrayList<RoomData>()  // 변수명의 m : 멤버변수라는 표식
 
-    lateinit var = mRoomAdapter: RoomAdapter
+    lateinit var mRoomAdapter: RoomAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

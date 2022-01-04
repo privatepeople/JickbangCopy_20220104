@@ -41,6 +41,10 @@ class RoomAdapter(
 //              실제 : 상세보기 화면 이동 (Intent)
                 val myIntent = Intent(mathContext, ViewRoomDetailActivity::class.java)
 
+//                  어떤 방인지 데이터를 들고 화면 이동 (putExtra)
+                myIntent.putExtra("room", data)
+
+
 //                  화면의 도움을 받아 -> 다른 화면으로 이동 startActivity
                 mathContext.startActivity(myIntent)
 
